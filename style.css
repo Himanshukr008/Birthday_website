@@ -7,7 +7,7 @@ body {
     background-color: rgb(170, 152, 166);
 }
 
-@media (max-width : 370px) {
+/* @media (max-width : 370px) {*/
 
     header {
         width: 100%;
@@ -171,4 +171,4 @@ body {
         font-weight: 800;
         border-radius: 1.5rem;
     }
-}
+/*}*/
