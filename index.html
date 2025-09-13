@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="wish">
+            <span>
+                <h1>BIRTHDAY WISHES</h1>
+            </span>
+        </div>
+    </header>
+    <main>
+        <div class="bgi">
+            <img src="birthday image 2.jpg" alt="">
+            <div class="surprise">
+                <div class="simg">
+                    <img src="gift.jpg" alt="">
+                </div>
+                <div class="btn">
+                    <button class="sbtn">
+                        <p>Surprise To</p>
+                        <p>Navya Patel( Minchuk )</p>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="gift">
+            <button class="close">CLOSE</button>
+            <div class="wishes">
+                <p>HAPPY BIRTHDAY NAYVA (MINCHUK) </p>
+            </div>
+            <div class="wishesimg">
+                <img src="birtday image.jpg" alt="">
+            </div>
+            <div class="gallery">
+                <div class="fig"><img src="minchuk_image1.jpg" alt=""></div>
+                <div class="fig"><img src="minchuk_image_2.jpg" alt=""></div>
+                <div class="fig"><img src="minchuk_image4.jpg" alt=""></div>
+                <div class="fig"><img src="minchuk_image3.jpg" alt=""></div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="foot">
+            <p>©copyright | Himanshu Kumar Privacy & POlicy 2025</p>
+        </div>
+    </footer>
+    <script>
+        let sbtn = document.querySelector(".sbtn")
+        let closebtn = document.querySelector(".close")
+        let gift = document.querySelector(".gift")
+
+        sbtn.addEventListener("click",()=>{
+            gift.style.display = "block"
+        })
+        closebtn.addEventListener("click",()=>{
+            gift.style.display = "none"
+        })
+    </script>
+</body>
+
+</html>

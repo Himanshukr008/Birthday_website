@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(170, 152, 166);
+}
+
+@media (max-width : 370px) {
+
+    header {
+        width: 100%;
+    }
+
+    .wish {
+        /* border: 2px solid black; */
+        text-align: center;
+        padding: 2rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-image: url(https://media.istockphoto.com/id/895389774/vector/magic-night-dark-blue-sky-with-sparkling-stars.jpg?s=612x612&w=0&k=20&c=-l7avkMu0tuc_7knlAMGGq3XlavdgSvYUVn6PpNFDyg=);
+    }
+
+    .wish span h1 {
+        color: rgb(161, 165, 42);
+        margin: auto;
+        transition: transform ease-in-out 3s;
+        font-weight: 900;
+
+    }
+
+    .wish span h1:hover {
+        cursor: pointer;
+        transform: scale(1.2);
+    }
+
+    .main {
+        width: 100%;
+    }
+
+    .bgi {
+        background-repeat: no-repeat;
+        position: relative;
+    }
+
+    .bgi img {
+        height: 70vh;
+        margin: 1px;
+        border-radius: .5rem;
+        width: 98vw;
+    }
+
+    .surprise {
+        border: 2px solid rgb(214, 168, 176);
+        background-image: linear-gradient(45deg, red, pink, white)1;
+        border-radius: 2rem;
+        height: 45vh;
+        width: 65vw;
+        position: absolute;
+        top: 13vh;
+        left: 17vw;
+        backdrop-filter: blur(1rem);
+    }
+
+    .simg {
+        position: absolute;
+        left: 3.5vw;
+        top: 3vh;
+        width: 100%;
+    }
+
+    .simg img {
+        /* position: absolute; */
+        border-radius: 2rem;
+        width: 57vw;
+        height: fit-content;
+        transition: transform ease-in-out 2s;
+    }
+
+    .simg img:hover {
+        cursor: pointer;
+        transform: rotate(360deg);
+    }
+
+    .btn {
+        position: absolute;
+        bottom: 2vh;
+        left: 1.1rem;
+    }
+
+    .btn button {
+        padding: 1rem;
+        background-color: rgb(243, 14, 14);
+        border-radius: 2rem;
+        color: white;
+        font-weight: 600;
+        font-size: .9rem;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        transition: transform ease-in-out .4s;
+    }
+
+    .btn button:hover {
+        cursor: pointer;
+        transform: rotate(-3deg);
+    }
+
+    .gift {
+        position: absolute;
+        top: 10rem;
+        left: 2.3rem;
+        border: .2rem solid rgb(242, 202, 6);
+        border-radius: 2rem;
+        overflow: hidden;
+        overflow-y: scroll;
+        backdrop-filter: blur(2rem);
+        height: 70vh;
+        width: 80vw;
+        display: none;
+        /* here display none for , after clicking button it appear */
+    }
+
+    .wishes {
+        font-weight: 900;
+        margin-top: 1.5rem;
+        padding: 2rem;
+        text-align: center;
+        color: rgb(238, 58, 8);
+        font-family: cursive;
+    }
+
+    .gift .wishesimg img {
+        border-radius: 2rem;
+        position: absolute;
+        left: 3rem;
+        width: 57vw;
+    }
+
+    .gallery .fig img {
+        border-radius: 2rem;
+        position: relative;
+        top: 9rem;
+        left: 3rem;
+        width: 56vw;
+        height: 35vh;
+    }
+
+    footer {
+        width: 100%;
+    }
+
+    .foot {
+        background-color: rgb(9, 5, 49);
+        height: 8vh;
+        margin-top: 1rem;
+        text-align: center;
+        color: white;
+        padding-top: .2rem;
+    }
+
+    .foot p {
+        margin-top: 1rem;
+    }
+
+    .gift>button {
+        position: absolute;
+        left: 7rem;
+        top: .5rem;
+        background-color: black;
+        padding: .6rem;
+        color: white;
+        font-weight: 800;
+        border-radius: 1.5rem;
+    }
+}
